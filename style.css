@@ -201,15 +201,17 @@ body{
 }
 
 @media (max-width:900px){
+/*    updated from flex-direction = column to flew =wrap */
     .small-con{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
         justify-content: center;
-        text-align: center;
     }
+/* updated to enable some space around the buttons on the third section  */
     .small-btn, .unique{
-        margin-bottom: 1rem;
+        margin: 1rem;
+        
     }
 
     .small-con2{
